@@ -1,0 +1,26 @@
+// variables
+$default-font-size: 1.6rem;
+
+// cross broswer reset
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// set sizing to 10px (1rem = 10px)
+html {
+    font-size: 65.2%;
+}
+
+// body
+body {
+    color: #fff;
+    background-color: #000;
+}
+
+.container {
+    font-size: $default-font-size;
+    text-align: center;
+    margin: 0 auto;
+}
